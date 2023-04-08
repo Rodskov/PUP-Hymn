@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>PUP Imno Player</title>
+    <link rel="icon" href="media/PUPLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-img">
+    <audio src="media/Imno ng PUP.mp3" loop=20 id="audio"></audio>
+
+    <div class="music-player">
+        <h1>PUP Hymn</h1>
+        <div class="disk-spin"></div>
+
+        <div class="slider">
+            <input type="range" value="0" class="seek-bar"><br>
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+        <div class="control">
+            <button class="play-button pause">
+                <span></span>
+                <span></span>
+            </button>
+        </div>  
+
+    </div>
+    
+    <div class="lyrics">
+        <marquee class="text" id="marquee" direction="up" scrollamount="1" scrolldelay="170">
+            Sintang Paaralan
+            <br>Tanglaw ka ng bayan
+            <br>Pandayan ng isip ng kabataan
+            <br>Kami ay dumating nang salat sa yaman
+            <br>Hanap na dunong ay iyong alay
+            <br>Ang layunin mong makatao
+            <br>Dinarangal ang Pilipino
+            <br>Ang iyong aral, diwa, adhikang taglay
+            <br>PUP, aming gabay
+            <br>Paaralang dakila
+            <br>PUP, pinagpala
+            <br>Gagamitin ang karunungan
+            <br>Mula sa iyo, para sa bayan
+            <br>Ang iyong aral, diwa, adhikang taglay
+            <br>PUP, aming gabay
+            <br>Paaralang dakila
+            <br>PUP, pinagpala
+        </marquee>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
